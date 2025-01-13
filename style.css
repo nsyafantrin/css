@@ -1,3 +1,42 @@
+
+/* universal selector*/
 * {
     color: purple;
+}
+
+/*Type Selector*/
+div {
+    color: green;
+}
+
+/*Class Selector*/
+.again {
+    color: blue;
+}
+
+/*ID Selector*/
+#tole {
+    color: red;
+}
+
+/*Group Selector*/
+.read, .unread {
+    color: white;
+    background-color: black;
+}
+
+/*Chaining Selector*/
+.subsection.header {
+    background-color: blue;
+    color: white;
+}
+
+.subsection#preview {
+    background-color: yellow;
+    color: black;
+}
+
+/*Descendant Combinator*/
+.ancestor .contents {
+    background-color: red;
 }
